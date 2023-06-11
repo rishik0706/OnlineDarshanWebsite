@@ -1,58 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Darshan</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</head>
-<body >
+    <link rel="icon" type="image/x-icon" href="/img/favicon.jpg">
+    <link rel="stylesheet" href="index.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg bg-warning">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Shree Siddhivinayak Ganapati </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="src/darshan.html">Darshan</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Arti</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Pooja</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Donation</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Publications</a>
-          </li>
-          
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Login
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="src/login/Login.html">Sign In</a></li>
-            <li><a class="dropdown-item" href="src/login/Registration.html">Sign Up</a></li>
+      <div class="container-fluid">
+        <img
+          src="img/svt_logo_hq-3.png"
+          style="height: 45px; width: 40px"
+          alt="Shree Siddhivinayak Ganapati Mandir Trust"
+          data-src="https://www.siddhivinayak.org/wp-content/uploads/2020/08/svt_logo_hq-3.png"
+          decoding="async"
+          class="lazyloaded me-2"
+        />
+        <a class="navbar-brand" href="#">Shree Siddhivinayak Ganapati </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="src/darshan.html">Darshan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Arti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pooja</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Donation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Publications</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Login
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="src/login/Login.html"
+                    >Sign In</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="src/login/Registration.html"
+                    >Sign Up</a
+                  >
+                </li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      style="
+        height: 700px;
+        width: 100%;
+        background-position: center;
+      "
+    >
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" style="height: 700px;">
+        <div class="carousel-item active">
+          <img src="img/lord_ganesh.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/ganesh2.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/ganesh3.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </div>
-</nav>
 
-<div style="height: 700px; width: 100%; background-image: url(img/lord_ganesh.jpg); background-position: center;" >
+    </div>
 
-</div>
-
-
-</body>
+    <div id="exp" class="m-4 p-4" >
+      <h1  class="text-center m-4">Experience the Grace of Shri Siddhivinayak</h1>
+    </div>
+    <div class="text-center">
+      <button id="abt" type="button" class="btn btn-outline-danger" ><a href="Aboutus.html">About Us</a></button>
+    </div>
+  </body>
 </html>
